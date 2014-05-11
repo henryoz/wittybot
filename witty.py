@@ -8,11 +8,11 @@ import json
 
 def main():
 
-    api = twitter.Api(consumer_key='DLPWrxClUBkrkIehxtuew',
-                      consumer_secret='G81mzNZf3nq13ONV6lMgMeFmJZWoSnFOVcVb7ElYzv8',
-                      access_token_key='2276606983-M0kJ85NkVaqnrReZegimAezLWkLzUsLfSaYWsDa'
+    api = twitter.Api(consumer_key='',
+                      consumer_secret='',
+                      access_token_key=''
                       ,
-                      access_token_secret='uaKCI54C3I2xo4YI4hZZsL7hHskjsNbLkIaXRvSpkgTF0')
+                      access_token_secret='')
 
     getNounsURL = 'http://api.wordnik.com/v4/words.json/randomWords?' \
         + 'minCorpusCount=1000&minDictionaryCount=10&' \
