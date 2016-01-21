@@ -10,6 +10,7 @@ app.listen(3000);
 
 
 // twitter app info
+// remove this to prevent hax
 var T = new Twit({
   consumer_key:         'Null', 
   consumer_secret:      'Null',
@@ -74,4 +75,4 @@ setInterval(function() {
 },60000*60*5);
 
 
-// Created with code provided by Darius Kazemi - http://tinysubversions.com/
+// Created with guidance from Darius Kazemi - http://tinysubversions.com/
